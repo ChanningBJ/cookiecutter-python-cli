@@ -25,7 +25,7 @@ setup(
         ],
     },
     package_data={
-        '{{ cookiecutter.pypi_name }}': ['resources/*'],
+        '{{ cookiecutter.package_name }}': ['resources/*'],
     },
     classifiers=[
         # As from http://pypi.python.org/pypi?%3Aaction=list_classifiers
