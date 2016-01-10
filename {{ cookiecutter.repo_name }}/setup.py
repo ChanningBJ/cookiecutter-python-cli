@@ -24,6 +24,9 @@ setup(
             '{{ cookiecutter.script_name }} = {{ cookiecutter.package_name }}.cli:main',
         ],
     },
+    package_data={
+        '{{ cookiecutter.pypi_name }}': ['resources/*'],
+    },
     classifiers=[
         # As from http://pypi.python.org/pypi?%3Aaction=list_classifiers
         # 'Development Status :: 1 - Planning',
